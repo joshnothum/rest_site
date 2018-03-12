@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="restaurantStyles.css" />
+    <title>Contact Us</title>
 </head>
 
 <body>
@@ -23,41 +24,55 @@
     </div>
     <div>
         <form id="contactUs">
-           <label for="Name">Name:</label><span></span>
-            <input type="text" name="Name" id="Name" /> <br>
-            <label for="Email">Email:</label><span></span>
-            <input type="email" name="Email" id="Email" /> <br>
-            <label for="Phone">Phone:</label><span></span>
-            <input type="tel" name="Phone" id="Phone"/> <br>
-            <label for="reason">Reason for Inquiry:</label><span></span>
+            <label for="Name">Name:</label>
+            <span></span>
+            <input type="text" name="Name" id="Name" />
+            <br>
+            <label for="Email">Email:</label>
+            <span></span>
+            <input type="email" name="Email" id="Email" />
+            <br>
+            <label for="Phone">Phone:</label>
+            <span></span>
+            <input type="tel" name="Phone" id="Phone" />
+            <br>
+            <label for="reason">Reason for Inquiry:</label>
+            <span></span>
             <select id="reason" name="reason" id="reason">
                 <option value="Catering"> Catering</option>
                 <option value="Private Party">Private Party</option>
                 <option value="Feedback">Feedback</option>
                 <option value="Other"> Other</option>
-            </select><br> 
-            <label for="Information">Additional Information:</label><span></span>
-            <textarea name="Information" id="Information"></textarea> <br> 
-           <label for="visit">Have you visited before?</label>
-            <input type="radio" name="visit" value="Yes" id="visit"/>Yes
-            <input type="radio" name="visit" value="No" id="visit"/>No<br/> 
-            <fieldset>
-            <legend>Best Days to contact you:</legend><span></span>
-            <input type="checkbox" name="days" value="1" id="M"/>
-            <label for="M">Monday</label>
-            <input type="checkbox" name="days" value="2" id="T"/>
-            <label for="M">Tuesday</label>
-            <input type="checkbox" name="days" value="3" name="days"/>W
-            <input type="checkbox" name="days" value="4" />Th
-            <input type="checkbox" name="days" value="5" />F
-        </fieldset>
+            </select>
             <br>
-            <input type="submit" value = "Send Request">
+            <label for="Information">Additional Information:</label>
+            <span></span>
+            <textarea name="Information" id="Information"></textarea>
+            <br>
+            <label for="visit">Have you visited before?</label>
+            <input type="radio" name="visit" value="Yes" id="visit" />Yes
+            <input type="radio" name="visit" value="No" id="visit" />No
+            <br/>
+           
+             <label for="days">  Best Days to contact you:</label> 
+                <input type="checkbox" name="days" value="1" id="days" />
+                <label for="M">Monday</label>
+                <input type="checkbox" name="days" value="2" id="days" />
+                <label for="T">Tuesday</label>
+                <input type="checkbox" name="days" value="3" id="days" />
+                <label for="W">Wednesday</label>
+                <input type="checkbox" name="days" value="4" id="days" />
+                <label for="Th">Thursday</label>
+                <input type="checkbox" name="days" value="5" id="days" />
+                <label for="F">Friday</label>
+       
+            <br>
+            <input type="submit" value="Send Request">
 
         </form>
     </div>
-    <hr \>
     <footer>
+            <hr \>
         <p>&copy; 123 Fake Street, St. Louis, MO 63090</p>
         <p>636-555-5555</p>
     </footer>

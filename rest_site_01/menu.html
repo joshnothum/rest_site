@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="restaurantStyles.css" />
+    <style>
+        .menuItem {
+            float: left;
+            width: 33%;
+        }
+    </style>
     <title>Menu Page</title>
 </head>
 
@@ -21,9 +28,9 @@
         </p>
         <hr />
     </div>
-    <div>
-        <div class = "row">
-            <div>
+    <div id="container" width="100%">
+        <div class="row">
+            <div class="menuItem">
                 <h3>Burgers and Fries</h3>
                 <p>An American Classic!</p>
                 <p>Your choice - with or without cheese</p>
@@ -31,16 +38,16 @@
                 <p>Served with our famous thick cut french fries</p>
                 <p>$7.95</p>
             </div>
-            
-            <div>
+
+            <div class="menuItem">
                 <h3>Hot Dog and Chips</h3>
                 <p>A Summer Classic</p>
-                <p>Your choice -  white or wheat bun</p>
+                <p>Your choice - white or wheat bun</p>
                 <p>Relish, mustard and ketchup</p>
                 <p>Served with our house-made chips</p>
                 <p>$7.95</p>
             </div>
-            <div>
+            <div class="menuItem">
                 <h3>Italian Sausage and Pepppers</h3>
                 <p>An All Time Favorite!!</p>
                 <p>Your choice - mild or spicy</p>
@@ -49,8 +56,8 @@
                 <p>10.95</p>
             </div>
         </div>
-        <div class="row">
-            <div>
+        <div id="row2">
+            <div class="menuItem">
                 <h3>Tenderloin Sandwich and Chips</h3>
                 <p>Really Hits the Spot</p>
                 <p>Plain or Sesame Seed Bun</p>
@@ -58,7 +65,7 @@
                 <p>Served with our house-made chips</p>
                 <p>8.95</p>
             </div>
-            <div>
+            <div class="menuItem">
                 <h3>House Salad</h3>
                 <p>On the lighter side</p>
                 <p>Your choice with or without cheese</p>
@@ -66,7 +73,7 @@
                 <p>Thousand Island or Ranch</p>
                 <p>Served with a Dinner Roll</p>
             </div>
-            <div>
+            <div class="menuItem">
                 <h3>Brisket Sandwich and Fries</h3>
                 <p>A Taste of Texas!</p>
                 <p>Smoked Brisket on a thick cut Texas Toast</p>
@@ -75,10 +82,11 @@
             </div>
         </div>
     </div>
+    
     <footer>
-        <p>&copy; 123 Fake Street, St. Louis, MO 63090</p>
-        <p>636-555-5555</p>
-    </footer>
+            <hr \>
+            <p>&copy; 123 Fake Street, St. Louis, MO 63090</p>
+            <p>636-555-5555</p>
+        </footer>
 </body>
-
 </html>
