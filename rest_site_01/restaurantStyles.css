@@ -1,11 +1,16 @@
 body{
     height: 100%;
+    min-height: 100%;
 }
-footer {
+.footer {
     text-align: center;
     clear: both;
     position: relative;
     z-index: 10;
-    height: 3em;
-    margin-top: -3em;
+    height: 5em;
+    margin-top: 3em;
+    padding: 10px;
+}
+header{
+    font-family: 'Roboto Condensed', sans-serif;
 }
