@@ -13,4 +13,19 @@ body{
 }
 header{
     font-family: 'Roboto Condensed', sans-serif;
+    
 }
+a:link{
+    color:black;
+}
+a:visited{
+    color:red;
+}
+a:hover{
+    font-weight:bold;
+}
+a:active{
+    text-decoration:  none;
+}
+
+
