@@ -10,16 +10,19 @@
     <script src="bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="restaurantStyles.css" />
     <noscript>
-            <div class="noscriptmsg">
-                You don't have JavaScript enabled. This page will be best viewed if JavaScript is enabled.
-            </div>
-        </noscript>
+        <div style="border: 1px solid purple; padding: 10px">
+            JavaScript is not enabled!
+        </div>
+    </noscript>
     <style>
+        body{
+            background-color: lightgrey;
+        }
         #description {
+            font-size: 30px;
             margin: auto;
             text-align: center;
             width: 100%;
-            font-size: 30px;
         }
     </style>
     <title>Home Page</title>
@@ -47,21 +50,16 @@
             </ul>
             <hr />
         </header>
-
-        <div>
             <div class="jumbotron" style="background-color: navy; text-align: center; color: white">
                 <h2>New location!</h2>
-                <p>We're excited that we're opening up another Josh's Restaurant in the Bermuda Triangle.</p>
+                <p>We're excited to announce that a Josh's Restaurant will be opening in the Bermuda Triangle.</p>
             </div>
             <div id="carousel" class="carousel slide" data-ride="carousel" style="width: 600px; margin: 0 auto">
-                <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-restaurant" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel-restaurant" data-slide-to="1"></li>
                     <li data-target="#carousel-restaurant" data-slide-to="2"></li>
                 </ol>
-
-                <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
                         <img src="new-location.jpg" alt="...">
@@ -78,22 +76,18 @@
                     <div class="item">
                         <img src="sg-brew.jpg" alt="...">
                         <div class="carousel-caption">
-                            <h3> The Drink of the Month is the SG Special Brew. </h3>
+                            <h3> You like weird drinks? You'll our new drink of the month, the sg-brew </h3>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+       
         <div id="description">
-         
             <p>
-                Come on down to Josh's Restaurant. If you kill it, we'll grill it.  St. Louis' only restaurant that allows the customer to
-                bring their own meat. We'll put anything on the grill and spice it just the way you like it.  See ya soon!
+                Come on down to Josh's Restaurant. If you kill it, we'll grill it. St. Louis' only restaurant that allows the customer to
+                bring their own meat. We'll put anything on the grill and spice it just the way you like it. See ya soon!
             </p>
         </div>
-
-
-
         <footer class="footer">
             <hr \>
             <p>&copy; 123 Fake Street, St. Louis, MO 63090</p>
